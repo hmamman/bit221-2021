@@ -1,0 +1,25 @@
+body {
+    background-color: darkblue;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;    
+}
+h1 {
+    border: 5px greenyellow solid;
+}
+h1, h2 {
+    font-size: 2em;
+    text-align: center;
+    color: black;
+    background-color:rgb(255, 36, 40);
+
+}
+
+h2 {
+    text-align: left;
+    border-bottom: 2px dashed yellow;
+}
+
+p {
+    padding: 4px 10px 20px 10px;
+    border: black solid 2px;
+}

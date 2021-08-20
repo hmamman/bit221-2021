@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <form action="thank-you.html" method="POST">
+        <h2>Please complete the form below</h2>
+        <fieldset>
+            <legend>Personal Details</legend>
+            <p>
+                <label for="username">Username:</label>
+                <input type="text" size="40" name="username" id="username" placeholder="Enter your username" required>
+            </p>
+            <p>
+                <label for="password">Password: </label>
+                <input id="password" type="password" name="password" placeholder="Enter your password" required>
+            </p>
+            <p>Gender:
+                <input type="radio" name="gender" value="Male"> Male
+                <input type="radio" name="gender" value="Female"> Female
+                <input type="radio" name="gender" value="Neutral"> Neutral
+            </p>
+            <p>Email: <input type="email" name="email" required></p>
+            <p>Phone Number: <input type="tel" name="phone_number" pattern="[+]*[(]{0,1}[0-9]{1,4}[)]{0,1}[-\s\./0-9]*$"
+                    required></p>
+            <p>Personal: <input type="url" name="url" name="url"></p>
+            <p>State of Origin:
+                <select name="state">
+                    <option>Select...</option>
+                    <optgroup label="North-East">
+                        <option value="Adamawa">Adamawa</option>
+                        <option value="Bauchi">Bauchi</option>
+                        <option value="Borno">Borno</option>
+                        <option value="Gombe">Gombe</option>
+                        <option value="Taraba">Taraba</option>
+                        <option value="Yobe">Yobe</option>
+                    </optgroup>
+
+                </select>
+            </p>
+        </fieldset>
+
+        <p>
+            Favourite Cities:
+            <input type="checkbox" name="Bauchi" value="Bauchi"> Bauchi
+            <input type="checkbox" name="Plateau" value="Plateau"> Plateau
+            <input type="checkbox" name="Gombe" value="Gombe"> Gombe
+            <input type="checkbox" name="Jigawa" value="Jigawa"> Jigawa
+        </p>
+        <p>Profile Image <input type="file" name="prifile-image" accept="image/*"></p>
+        <p>About you: <textarea name="about-you" rows="10" cols="50"></textarea></p>
+        <p>
+            <button type="submit">Submit</button>&nbsp;&nbsp;&nbsp;
+            <button type="reset">Reset</button>
+        </p>
+    </form>
+</body>
+
+</html>
