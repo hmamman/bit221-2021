@@ -1,0 +1,23 @@
+{
+  "name": "bit221-2021",
+  "version": "1.0.0",
+  "description": "Web Interraction Design",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hmamman/bit221-2021.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hmamman/bit221-2021/issues"
+  },
+  "homepage": "https://github.com/hmamman/bit221-2021#readme",
+  "dependencies": {
+    "tailwindcss": "^2.2.7"
+  }
+}
